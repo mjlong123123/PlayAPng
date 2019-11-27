@@ -4,6 +4,7 @@ Define APngDrawable to play apng file in android app.
 2. APngDrawable only cache two frames for playing.
 3. Multiple APngDrawable can use the same APngHolder instance to play same apng file. APngHolder hold a APngDecoder and a apng file.
 4. When decoder decode apng frame. All frame data use the same byte buffer.And this process decrease memory allocation.
+
 Due to above feature,APngDrawable can play apng file with less memory.Especially App need to play same apng file with multiple ImageView at same times in a page.
 
 # How to use?
