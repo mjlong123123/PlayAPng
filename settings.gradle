@@ -1,2 +1,3 @@
+include ':APngLib'
 include ':app', ':apngdrawable'
 rootProject.name='PlayAPng'
